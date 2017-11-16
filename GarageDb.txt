@@ -33,3 +33,4 @@ PRIMARY KEY NOT NULL, Id_Garage INTEGER FOREIGN KEY
 (Id_Electricity) REFERENCES Electricity(Id), Id_Rent INTEGER FOREIGN KEY 
 (Id_Rent) REFERENCES Rent(Id), ElectricityAmount INTEGER, RentAmount INTEGER, CounterValue INTEGER, Date NVARCHAR(50))
 
+ALTER TABLE Employee ADD Login NVARCHAR(50), Password NVARCHAR(50);  
